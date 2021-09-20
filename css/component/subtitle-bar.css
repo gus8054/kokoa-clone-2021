@@ -1,0 +1,7 @@
+.subtitle-bar {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 20px;
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: 500;
+}

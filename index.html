@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/style.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome</title>
+  </head>
+  <body>
+    <div class="status">
+      <div class="status__column">
+        <span class="status__text">No Service</span>
+        <i class="status__icon fas fa-wifi"></i>
+      </div>
+      <div class="status__column">
+        <span class="status__text">18:43</span>
+      </div>
+      <div class="status__column">
+        <i class="status__icon fas fa-lock"></i>
+        <span class="status__text">11%</span>
+        <i class="status__icon fas fa-battery-quarter fa-lg"></i>
+        <i class="status__icon fas fa-bolt"></i>
+      </div>
+    </div>
+    <header class="welcome-header">
+      <h3 class="welcome-header__title">Welcome to KaKaoTalk</h3>
+      <p class="welcome-header__subtitle">
+        If you have a KaKao Account,<br />log in with your email or phone
+        number.
+      </p>
+    </header>
+
+    <form class="login-form" action="friends.html" method="GET">
+      <input
+        class="login-form__input"
+        name="id"
+        type="text"
+        placeholder="Email or phone number"
+      />
+      <input
+        class="login-form__input"
+        name="pw"
+        type="password"
+        placeholder="Password"
+      />
+      <button class="login-form__btn" type="submit">Log In</button>
+      <button class="login-form__btn" type="button">Sign Up</button>
+      <a class="login-form__find-account" href="#">
+        Find KaKao Account or Password</a
+      >
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/22fd71f6b4.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
