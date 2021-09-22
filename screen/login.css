@@ -2,6 +2,9 @@
   color: var(--black-color);
   background-color: white;
 }
+#login .status-bar {
+  background-color: white;
+}
 .main {
   padding: 0px 65px;
   display: flex;
