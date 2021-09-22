@@ -1,0 +1,115 @@
+.tag-header {
+  padding: 10px var(--main-horizontal-space) 20px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 28px;
+  font-weight: 600;
+}
+.tag-header__column:first-child {
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  color: var(--gray-color);
+}
+.tag-header__column:first-child span {
+  word-break: keep-all;
+  margin-right: 20px;
+  padding-bottom: 20px;
+}
+.tag-header--selected {
+  color: white;
+  border-bottom: 2px solid white;
+  white-space: nowrap;
+}
+
+.tag-header__column:last-child {
+  margin-left: var(--main-horizontal-space);
+}
+#tags .ad {
+  height: 150px;
+  margin-bottom: 10px;
+}
+#tags .ad__img {
+  background-color: seagreen;
+  height: 100px;
+  width: 200px;
+  border-radius: 10px;
+}
+#tags .ad:nth-child(4) {
+  margin-top: 10px;
+  background-color: #fde500;
+}
+#tags .ad:nth-child(4) .ad__img {
+  background-color: var(--black-color);
+}
+.articles {
+  background-color: #212226;
+  padding: 0px var(--main-horizontal-space);
+  color: white;
+}
+.articles__item {
+  padding: 20px 0px;
+  font-size: 20px;
+}
+#tags hr {
+  margin: 0px;
+}
+.search {
+  padding: 10px 20px;
+  background-color: white;
+  height: 160px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  position: fixed;
+  bottom: 70px;
+}
+.search__row:first-child {
+  border-radius: 20px;
+  border: 4px solid #fde500;
+  padding: 15px;
+}
+.search__row:first-child form {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.search__row:first-child i {
+  color: #fde500;
+  font-size: 24px;
+}
+.search__row:first-child input {
+  outline: none;
+  border: none;
+  font-size: 20px;
+  margin-left: 10px;
+  width: 100%;
+}
+.search__row:first-child input::placeholder {
+  font-size: 20px;
+}
+.search__row:first-child button {
+  outline: none;
+  border: none;
+  background-color: white;
+}
+.search__row:first-child button i {
+  color: var(--gray-color);
+}
+.search__tag {
+  display: flex;
+  color: var(--black-color);
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.search__tag-item {
+  margin-top: 10px;
+  margin-right: 20px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  background-color: #f3f4f6;
+  cursor: pointer;
+}

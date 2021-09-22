@@ -1,0 +1,7 @@
+.index-title {
+  padding: 0px var(--main-horizontal-space);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--gray-color);
+}

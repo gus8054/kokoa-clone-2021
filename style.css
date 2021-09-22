@@ -1,0 +1,46 @@
+/* reset */
+@import "reset.css";
+/* variable  */
+@import "variables.css";
+
+/* component  */
+@import "component/status-bar.css";
+@import "component/header.css";
+@import "component/user-title.css";
+@import "component/hr.css";
+@import "component/index-title.css";
+@import "component/footer.css";
+@import "component/ad.css";
+@import "component/icon.css";
+@import "component/header-another.css";
+
+/* screen  */
+@import "screen/login.css";
+@import "screen/friend.css";
+@import "screen/chats.css";
+@import "screen/tags.css";
+@import "screen/shopping.css";
+@import "screen/more.css";
+@import "screen/setting.css";
+@import "screen/chatting.css";
+
+* {
+  box-sizing: border-box;
+}
+.screen-width-over {
+  position: absolute;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--main-background-color);
+  color: white;
+}
+@media screen and (max-width: 600px) {
+  .screen-width-over {
+    display: none;
+    visibility: hidden;
+  }
+}

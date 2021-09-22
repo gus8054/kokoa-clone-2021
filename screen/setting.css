@@ -1,0 +1,40 @@
+#setting {
+  background-color: white;
+  color: var(--main-background-color);
+}
+#setting .status-bar {
+  background-color: white;
+}
+#setting .header-another a {
+  color: var(--main-background-color);
+}
+.setting_list {
+  padding: 0px var(--main-horizontal-space);
+  margin-bottom: 50px;
+}
+.setting_list-item {
+  margin-top: 40px;
+  font-size: 20px;
+}
+.setting_list-item:first-child {
+  margin-top: 40px;
+}
+.setting_list-item i {
+  width: 10%;
+  text-align: center;
+  margin-right: 20px;
+  font-size: 28px;
+}
+.setting_list-item__version-title {
+  position: relative;
+}
+.setting_list-item__version-content {
+  position: absolute;
+  top: 35px;
+  left: 0px;
+  font-size: 18px;
+  color: var(--gray-color);
+}
+#setting hr {
+  background-color: var(--gray-color);
+}

@@ -1,0 +1,5 @@
+#chats .ad {
+  margin: 0px var(--main-horizontal-space);
+  border-radius: 10px;
+  margin-top: 20px;
+}

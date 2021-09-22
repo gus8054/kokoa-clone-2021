@@ -1,0 +1,103 @@
+#login {
+  color: var(--black-color);
+  background-color: white;
+}
+.main {
+  padding: 0px 65px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  text-align: center;
+  font-weight: 600;
+}
+.main__title {
+  font-size: 24px;
+}
+.main__subtitle {
+  font-size: 20px;
+  color: var(--gray-color);
+  margin-top: 20px;
+}
+.login-form {
+  padding: 0px var(--main-horizontal-space);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.login-form input {
+  font-size: 20px;
+  padding: 20px 0px;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid var(--gray-color);
+}
+.login-form input::placeholder {
+  color: var(--gray-color);
+}
+.login-form button[type="submit"] {
+  margin-top: 40px;
+  padding: 25px 0px;
+  width: 100%;
+  background-color: #f6f6f6;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+.login-form button[type="submit"]:hover {
+  background-color: var(--gray-color);
+}
+.login-form__find-pw {
+  margin-top: 30px;
+  color: var(--black-color);
+  opacity: 0.9;
+  text-decoration: none;
+  font-weight: 600;
+}
+@keyframes cover-moving {
+  from {
+    visibility: none;
+  }
+  to {
+    visibility: hidden;
+  }
+}
+.cover {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0px;
+  background-color: #2c2f34;
+  animation: cover-moving 1s ease-in-out forwards;
+}
+.cover__icon-box {
+  width: 160px;
+  height: 160px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cover__icon-box i {
+  color: white;
+  font-size: 180px;
+}
+.cover__icon-box span {
+  position: absolute;
+  top: 80px;
+  left: 80px;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 64px;
+  font-weight: 600;
+  color: #2c2f34;
+}

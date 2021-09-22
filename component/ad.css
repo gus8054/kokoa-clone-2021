@@ -1,0 +1,19 @@
+.ad {
+  background-color: white;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+}
+.ad__title {
+  font-size: 20px;
+  color: var(--main-background-color);
+  font-weight: 600;
+}
+.ad__img {
+  background-color: skyblue;
+  height: 60px;
+  width: 100px;
+  border-radius: 10px;
+}

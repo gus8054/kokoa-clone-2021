@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Chats</title>
+    <title>Shopping</title>
 </head>
-<body id="chats">
+<body id="shopping">
     <div class="status-bar">
         <div class="status-bar__column">
             <span>SKT</span>
@@ -22,13 +22,34 @@
     </div>
     <div class="header">
         <div class="header__column">
-            <span>채팅</span>
+            <span>쇼핑</span>
         </div>
         <div class="header__column">
-            <i class="fas fa-search"></i>
-            <i class="fas fa-user-plus"></i>
+            <i class="fas fa-qrcode"></i>
             <i class="fas fa-music"></i>
             <i class="fas fa-cog"></i>
+        </div>
+    </div>
+    <div class="shopping-icons">
+        <div class="icon-box">
+            <i class="fas fa-gift"></i>
+            <span>선물하기</span>
+        </div>
+        <div class="icon-box">
+            <i class="fas fa-store-alt"></i>
+            <span>쇼핑하기</span>
+        </div>
+        <div class="icon-box">
+            <i class="fab fa-monero"></i>
+            <span>메이커스</span>
+        </div>
+        <div class="icon-box">
+            <i class="fas fa-user-friends"></i>
+            <span>프렌즈</span>
+        </div>
+        <div class="icon-box">
+            <i class="fas fa-headset"></i>
+            <span>쇼핑라이브</span>
         </div>
     </div>
     <div class="ad">
@@ -39,22 +60,26 @@
             <div class="ad__img"></div>
         </div>
     </div>
-    <a href="chatting.html">
-        <div class="user-title">
-            <div class="user-title__column">
-                <div class="user-title__icon-box">
-                    <i class="fas fa-user"></i>
-                </div>
+    <div class="shopping-search">
+        <div class="shopping-search__row">
+            <form action="#" method="GET">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="카카오쇼핑에서 검색하세요.">
+            </form>
+        </div>
+        <div class="shopping-search__row">
+            <div class="shopping-search__column">
+                <span>추천</span>
+                <i class="fas fa-info-circle"></i>
             </div>
-            <div class="user-title__column">
-                <span class="user-title__name">승혀니</span>
-                <span class="user-title__content">노마드코더 강의 좋아?</span>
-            </div>
-            <div class="user-title__column">
-                <span>어제</span>
+            <div class="shopping-search__column">
+                <span class="shopping-search__recommend">디올 립글로우</span>
+                <span class="shopping-search__recommend">[LIVE] 불리</span>
+                <span class="shopping-search__recommend">비타민</span>
+                <span class="shopping-search__recommend">산타토익</span>
             </div>
         </div>
-    </a>
+    </div>
     <footer class="footer">
         <div class="footer__column">
             <a href="friend.html">
@@ -63,7 +88,7 @@
         </div>
         <div class="footer__column">
             <a href="chats.html">
-                <i class="fas fa-comment footer__selected"></i>
+                <i class="fas fa-comment"></i>
             </a>
         </div>
         <div class="footer__column">
@@ -73,7 +98,7 @@
         </div>
         <div class="footer__column">
             <a href="shopping.html">
-                <i class="fas fa-shopping-bag"></i>
+                <i class="fas fa-shopping-bag footer__selected"></i>
             </a>
         </div>
         <div class="footer__column">

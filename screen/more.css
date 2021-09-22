@@ -1,0 +1,108 @@
+#more .header {
+  margin-bottom: 25px;
+}
+.wallet {
+  height: 250px;
+  background-color: #fde500;
+  padding: 30px 40px;
+}
+.wallet__row:first-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wallet__row:first-child .wallet__column {
+  font-size: 20px;
+  color: var(--black-color);
+}
+.wallet__row:first-child .wallet__column:first-child span {
+  font-weight: 600;
+}
+.wallet__row:first-child .wallet__column:first-child i {
+  opacity: 0.5;
+}
+.wallet__row:first-child .wallet__column:last-child i,
+.wallet__row:first-child .wallet__column:last-child span {
+  margin-left: 10px;
+}
+.wallet_vertical-line {
+  opacity: 0.5;
+}
+.wallet__row:nth-child(2) {
+  margin-top: 25px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  color: var(--black-color);
+  font-size: 20px;
+  font-weight: 600;
+}
+.wallet__vaccine-reservation {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.wallet__vaccine-reservation i:first-child {
+  color: #3a61e2;
+  margin-right: 10px;
+}
+.wallet__vaccine-reservation span {
+  margin-right: auto;
+}
+.wallet__vaccine-reservation i:last-child {
+  opacity: 0.5;
+}
+.wallet__row:nth-child(3) {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--black-color);
+  font-size: 20px;
+  font-weight: 700;
+}
+.wallet__row:nth-child(3) .wallet__column:first-child i {
+  transform: translateY(4px);
+}
+.wallet__row:last-child {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  color: var(--black-color);
+}
+.wallet__row:last-child .wallet__column:first-child span {
+  margin-right: 20px;
+}
+.more-icons {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+}
+.more-icons__row {
+  margin-top: 35px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.more-icons i,
+.more-icons span {
+  color: white;
+  opacity: 0.7;
+}
+.icon-box i[class~="color"] {
+  padding: 5px 8px;
+  font-size: 32px;
+  border-radius: 15px;
+}
+.icon-box i[class~="fa-hand-point-up"] {
+  background-color: #f9e200;
+  color: #5550c6;
+}
+.icon-box i[class~="fa-ellipsis-h"] {
+  background-color: #5550c6;
+}

@@ -1,0 +1,10 @@
+.hr--padding {
+  padding: 0px var(--main-horizontal-space);
+  margin: 15px 0px;
+}
+hr {
+  width: 100%;
+  border: none;
+  height: 1px;
+  background-color: #4f5259;
+}

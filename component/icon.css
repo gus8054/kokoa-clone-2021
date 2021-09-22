@@ -1,0 +1,14 @@
+.icon-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  color: var(--main-background-color);
+}
+.icon-box i {
+  font-size: 40px;
+}
+.icon-box span {
+  margin-top: 20px;
+  font-size: 16px;
+}

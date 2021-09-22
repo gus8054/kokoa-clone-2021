@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px var(--main-horizontal-space);
+}
+.header__column:first-child {
+  font-size: 24px;
+  font-weight: 600;
+}
+.header__column:last-child i {
+  font-size: 20px;
+  margin-left: 20px;
+}

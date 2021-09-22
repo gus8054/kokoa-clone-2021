@@ -1,0 +1,21 @@
+#friend {
+  background-color: var(--main-background-color);
+  color: white;
+}
+#birthday-icon-box {
+  background-color: #d16f8e;
+  color: white;
+}
+#channel-icon {
+  position: relative;
+  background-color: #fae100;
+}
+#channel-icon i {
+  font-size: 36px;
+  color: black;
+}
+#channel-icon span {
+  position: absolute;
+  font-size: 16px;
+  color: #fae100;
+}
